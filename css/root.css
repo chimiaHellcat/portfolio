@@ -1,0 +1,36 @@
+
+
+:root {
+    
+    --cor-primaria: #3498db;
+    --cor-secundaria: #2980b9;
+    --cor-fundo: #ecf0f1;
+    --cor-surface: #ffffff; 
+    --cor-texto: #333333;
+    --cor-texto-secundario: #555555;
+    --cor-borda: #bdc3c7;
+  
+    
+    --fonte-titulos: 'Montserrat', sans-serif;
+    --fonte-corpo: 'Roboto', sans-serif;
+   
+    --espacamento-p: 8px;
+    --espacamento-m: 16px;
+    --espacamento-g: 32px;
+    --espacamento-gg: 64px;
+   
+    --raio-borda: 8px;
+    --sombra-padrao: 0 4px 12px rgba(0, 0, 0, 0.1);
+    --transicao-rapida: 0.3s ease;
+  }
+   
+  /* TEMA ESCURO  */
+  body.dark-theme {
+    --cor-primaria: #5dade2;
+    --cor-secundaria: #3498db;
+    --cor-fundo: #2c3e50;
+    --cor-surface: #34495e;
+    --cor-texto: #ecf0f1;
+    --cor-texto-secundario: #bdc3c7;
+    --cor-borda: #566573;
+  }
