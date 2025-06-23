@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vítor Hugo Balke Nodari - Portfólio Pessoal</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#home">VHN</a>
+        </div>
+
+        <nav id="nav-principal">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-botoes">
+            <button id="theme-toggle" aria-label="Mudar tema">
+                <i class="fa-solid fa-sun"></i>
+                <i class="fa-solid fa-moon"></i> 
+            </button>
+            <button id="menu-mobile-btn" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <img src="assets/imgs/imgPerfil.jpg" alt="Foto de perfil de Vítor Hugo Balke Nodari" data-aos="fade-down">
+            <h1 data-aos="fade-up" data-aos-delay="100">Bem-vindo(a) ao meu Portfólio!</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Sou Vítor Hugo Balke Nodari, estudante de Ciência da Computação, dedicado e apaixonado por tecnologia. Tenho experiência prática em suporte técnico, controle de almoxarifado e operações com banco de dados. Neste portfólio, compartilho minhas experiências, habilidades e projetos.</p>
+        </section>
+
+        <section id="sobre" data-aos="fade-right">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante de Ciência da Computação na URI, 5º semestre. Minhas experiências no Exército Brasileiro, CRERAL e AWA Sistemas fortaleceram minha disciplina, organização e capacidade de trabalhar em equipe. Meu foco é aprimorar minhas habilidades em desenvolvimento de software, APIs REST e manipulação de dados para contribuir com soluções inovadoras no setor de TI.</p>
+            
+            <h3>Habilidades</h3>
+            <ul class="lista-habilidades">
+                <li data-aos="fade-up" data-aos-delay="100">HTML5</li>
+                <li data-aos="fade-up" data-aos-delay="150">CSS3</li>
+                <li data-aos="fade-up" data-aos-delay="200">JavaScript (ES6+)</li>
+                <li data-aos="fade-up" data-aos-delay="250">React</li>
+                <li data-aos="fade-up" data-aos-delay="300">Java</li>
+                <li data-aos="fade-up" data-aos-delay="350">Git & GitHub</li>
+            </ul>
+
+            <a href="assets/docs/curriculovitorhbnodari.pdf" download class="botao-download" data-aos="fade-up" data-aos-delay="400">
+                <i class="fa-solid fa-download"></i>
+                Baixar Currículo
+            </a>
+        </section>
+
+        <section id="projetos" data-aos="fade-left">
+            <h2>Meus Projetos</h2>
+            <div class="grid-projetos">
+                <div class="card-projeto" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Carrinho de Compras</h3>
+                    <p>Aplicação em Java com banco de dados MySQL para gerenciar usuários, categorias, produtos, estoque e o carrinho de compras. Permite pesquisa de produtos por categoria ou nome.</p>
+                    <a href="https://github.com/chimiaHellcat/car_shop_att2" target="_blank">Ver Projeto &rarr;</a>
+                </div>
+                </div>
+        </section>
+        
+        <section id="experiencia" data-aos="fade-up">
+             <h2>Experiência</h2>
+             <p>Atuei no Exército Brasileiro (março/2022 a janeiro/2023), onde desempenhei funções administrativas e controle de almoxarifado. Na CRERAL (maio/2023 a fevereiro/2024), trabalhei como Jovem Aprendiz com separação e organização de materiais. Mais recentemente, na AWA Sistemas (março/2024 a setembro/2024), atuei como Auxiliar de Suporte, prestando atendimento ao cliente, resolvendo problemas e realizando operações em banco de dados.</p> 
+        </section>
+
+        <section id="contato" data-aos="fade-up">
+            <h2>Entre em Contato</h2>
+            
+            <form action="https://formspree.io/f/xovwkkrv" method="POST">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+            
+            <div id="form-status"></div>
+
+            <div class="redes-sociais"> 
+                <a href="https://www.linkedin.com/in/vítor-hugo-balke-nodari-b1b1202a5" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/chimiaHellcat" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/vitor.balke/" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Desenvolvido por Vítor Hugo Balke Nodari</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
